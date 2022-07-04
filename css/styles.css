@@ -1,0 +1,231 @@
+/* Color Palette
+
+Primary
+
+- Pale blue: hsl(225, 100%, 94%)
+- Bright blue: hsl(245, 75%, 52%)
+
+Neutral
+
+- Very pale blue: hsl(225, 100%, 98%)
+- Desaturated blue: hsl(224, 23%, 55%)
+- Dark blue: hsl(223, 47%, 23%)
+*/
+
+/* Global Styles */
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+body{
+    background-color: hsl(225, 100%, 94%);
+    margin-bottom: 40px;
+}
+
+a{
+    color: hsl(245, 75%, 52%);
+    cursor: pointer;
+}
+
+h1, h2{
+    text-align: center;
+    color: hsl(223, 47%, 23%);
+}
+
+h1{
+   padding: 20px 0; 
+   font-weight: 900;
+}
+
+
+p{
+    font-size: 16px;
+    text-align: center;
+    color:hsl(224, 23%, 55%);
+}
+
+/* Header styles */
+header img{
+    position: absolute;
+    width: 100%;
+    height: 60%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+/* Main styles */
+main{
+    z-index: 1;
+}
+
+main .box{
+    width: 450px;
+    height: 660px;
+    border-radius: 15px;
+    background-color:white;
+    margin: 80px auto 60px;
+    box-shadow: 0 8px 50px hsla(224, 23%, 53%, 0.5);
+}
+
+.pgh-1{
+    width: 300px;
+    margin: 0 auto;
+    padding-bottom: 25px;
+}
+
+
+.box-head-img{
+    border-radius: 15px 15px 0 0;
+}
+
+/* plans price section */
+.plan_price{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    background-color:  hsl(225, 100%, 98%);
+    border-radius: 15px;
+    width: 80%;
+    height: 100px;
+    margin: 0 auto;
+    padding: 25px 15px;
+}
+
+.image_{
+    width: 20%;
+}
+
+.text{
+    width: 60%;
+}
+
+.text>*{
+    text-align: left !important;
+}
+
+
+.plan_price p{
+    padding-top: 5px;
+}
+
+.text_link{
+    width: 20%;
+    padding-top: 15px;
+    font-weight: 900;
+}
+
+.plan_price a{
+    color: hsl(245, 75%, 52%);
+}
+
+.plan_price a:hover{
+    color: hsl(245, 75%, 52%, 0.8);
+}
+
+.plan_price a:active{
+    color: hsl(245, 75%, 52%, 0.8);
+}
+
+
+/* Button styles */
+.btn{
+    margin: 30px auto;
+    width: 80%;
+}
+
+.btn button{
+    background-color: hsl(245, 75%, 52%);
+    color: hsl(225, 100%, 98%);
+    border: none;
+    width: 100%;
+    height: 45px;
+    border-radius: 10px;
+    font-weight: 900;
+    font-size: 16px;
+    text-align: center;
+    box-shadow: 0 8px 20px hsla(245, 75%, 52%, 0.4);
+}
+
+.btn button:hover{
+    background-color: hsla(245, 75%, 52%, 0.8);
+}
+
+.btn button:active{
+    background-color: hsla(245, 75%, 52%, 0.8);
+}
+
+.cancel{
+    text-align: center;
+}
+
+.cancel a{
+    font-weight: 700;
+    text-decoration: none;
+    color:hsl(224, 23%, 55%);
+}
+
+.cancel a:hover{
+    color: hsl(223, 47%, 23%);
+}
+
+.cancel a:active{
+    color: hsl(223, 47%, 23%);
+}
+
+
+@media screen and (max-width: 600px) {
+    h1{
+        font-size: 24px;
+    }
+
+    h2{
+        font-size: 16px;
+    }
+
+    /* header styles */
+    header img{
+        height: 375px;
+    }
+
+
+    /* Main styles */
+    main .box{
+        width: 300px;
+        height: 580px;
+    }
+
+    .box-head-img{
+        width: 300px;
+        height: 165px;
+    }
+
+    .pgh-1{
+        width: 230px;
+        font-size: 14px;
+    }
+
+    /* plans price section */
+    .image_ img{
+        width: 36px;
+        height: 36px;
+    }
+
+    /* Plan price */
+    .plan_price a{
+        font-size: 12px;
+    }
+
+    /* Button styles */
+    .btn button{
+        font-size: 13px;
+    }
+
+    .cancel a{
+        font-size: 14px;
+    }
+}
