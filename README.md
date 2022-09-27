@@ -33,7 +33,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [View my solution URL here](https://github.com/preciousvictory/order-summary-component-main-frontendmentor/)
-- Live Site URL: [View my live site URL here](https://preciousvictory.github.io/Four-card-feature-section-master--Frontend-mentor/)
+- Live Site URL: [View my live site URL here](https://preciousvictory.github.io/order-summary-component-main-frontendmentor/)
 
 ## My process
 
