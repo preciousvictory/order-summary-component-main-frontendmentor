@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [View my solution URL here](https://github.com/preciousvictory/order-summary-component-main-frontendmentor)
-- Live Site URL: [View my live site URL here](https://preciousvictory-order-summary-card-challenge-on-frontend-mentor.netlify.app/)
+- Solution URL: [View my solution URL here](https://github.com/preciousvictory/order-summary-component-main-frontendmentor/)
+- Live Site URL: [View my live site URL here](https://preciousvictory.github.io/Four-card-feature-section-master--Frontend-mentor/)
 
 ## My process
 
